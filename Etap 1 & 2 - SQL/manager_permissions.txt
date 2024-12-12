@@ -1,0 +1,18 @@
+ grantor | grantee |   table_catalog   | table_schema |      table_name      | privilege_type | is_grantable | with_hierarchy 
+---------+---------+-------------------+--------------+----------------------+----------------+--------------+----------------
+ admin   | manager | MediPlaceDatabase | public       | rating               | SELECT         | NO           | YES
+ admin   | manager | MediPlaceDatabase | public       | doctor               | INSERT         | NO           | NO
+ admin   | manager | MediPlaceDatabase | public       | doctor               | SELECT         | NO           | YES
+ admin   | manager | MediPlaceDatabase | public       | doctor               | UPDATE         | NO           | NO
+ admin   | manager | MediPlaceDatabase | public       | doctor               | DELETE         | NO           | NO
+ admin   | manager | MediPlaceDatabase | public       | specialization       | INSERT         | NO           | NO
+ admin   | manager | MediPlaceDatabase | public       | specialization       | SELECT         | NO           | YES
+ admin   | manager | MediPlaceDatabase | public       | specialization       | UPDATE         | NO           | NO
+ admin   | manager | MediPlaceDatabase | public       | specialization       | DELETE         | NO           | NO
+ admin   | manager | MediPlaceDatabase | public       | doctorspecialization | INSERT         | NO           | NO
+ admin   | manager | MediPlaceDatabase | public       | doctorspecialization | SELECT         | NO           | YES
+ admin   | manager | MediPlaceDatabase | public       | doctorspecialization | UPDATE         | NO           | NO
+ admin   | manager | MediPlaceDatabase | public       | doctorspecialization | DELETE         | NO           | NO
+ admin   | manager | MediPlaceDatabase | public       | appointment          | SELECT         | NO           | YES
+(14 rows)
+

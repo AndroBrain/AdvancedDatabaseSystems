@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  sql-server:
+    image: mcr.microsoft.com/mssql/server
+    container_name: zsbd_ms_sql
+    hostname: zsbd_ms_sql
+    
+    environment:
+      SA_PASSWORD: H4rdP4ssW0rD
+      ACCEPT_EULA: Y
+    ports:
+      - "1433:1433"
+    restart: unless-stopped
+    volumes:
+      - ./SQL:/docker-entrypoint-initdb.d

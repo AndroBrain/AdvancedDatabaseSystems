@@ -1,0 +1,140 @@
+﻿[
+  {
+    "nodes": [
+      {
+        "identity": -144,
+        "labels": [
+          "Games"
+        ],
+        "properties": {
+          "name": "Games",
+          "indexes": [],
+          "constraints": []
+        },
+        "elementId": "-144"
+      },
+      {
+        "identity": -147,
+        "labels": [
+          "Steams"
+        ],
+        "properties": {
+          "name": "Steams",
+          "indexes": [],
+          "constraints": []
+        },
+        "elementId": "-147"
+      },
+      {
+        "identity": -145,
+        "labels": [
+          "Deals"
+        ],
+        "properties": {
+          "name": "Deals",
+          "indexes": [],
+          "constraints": []
+        },
+        "elementId": "-145"
+      },
+      {
+        "identity": -148,
+        "labels": [
+          "Stores"
+        ],
+        "properties": {
+          "name": "Stores",
+          "indexes": [],
+          "constraints": []
+        },
+        "elementId": "-148"
+      },
+      {
+        "identity": -143,
+        "labels": [
+          "SteamRequirements"
+        ],
+        "properties": {
+          "name": "SteamRequirements",
+          "indexes": [],
+          "constraints": []
+        },
+        "elementId": "-143"
+      },
+      {
+        "identity": -146,
+        "labels": [
+          "Metacritics"
+        ],
+        "properties": {
+          "name": "Metacritics",
+          "indexes": [],
+          "constraints": []
+        },
+        "elementId": "-146"
+      }
+    ],
+    "relationships": [
+      {
+        "identity": -120,
+        "start": -145,
+        "end": -148,
+        "type": "DISTRIBUTED_BY",
+        "properties": {
+          "name": "DISTRIBUTED_BY"
+        },
+        "elementId": "-120",
+        "startNodeElementId": "-145",
+        "endNodeElementId": "-148"
+      },
+      {
+        "identity": -117,
+        "start": -145,
+        "end": -144,
+        "type": "FOR",
+        "properties": {
+          "name": "FOR"
+        },
+        "elementId": "-117",
+        "startNodeElementId": "-145",
+        "endNodeElementId": "-144"
+      },
+      {
+        "identity": -119,
+        "start": -147,
+        "end": -144,
+        "type": "RATING_FOR",
+        "properties": {
+          "name": "RATING_FOR"
+        },
+        "elementId": "-119",
+        "startNodeElementId": "-147",
+        "endNodeElementId": "-144"
+      },
+      {
+        "identity": -118,
+        "start": -146,
+        "end": -144,
+        "type": "RATING_FOR",
+        "properties": {
+          "name": "RATING_FOR"
+        },
+        "elementId": "-118",
+        "startNodeElementId": "-146",
+        "endNodeElementId": "-144"
+      },
+      {
+        "identity": -121,
+        "start": -143,
+        "end": -147,
+        "type": "REQUIREMENTS_FOR",
+        "properties": {
+          "name": "REQUIREMENTS_FOR"
+        },
+        "elementId": "-121",
+        "startNodeElementId": "-143",
+        "endNodeElementId": "-147"
+      }
+    ]
+  }
+]
